@@ -47,7 +47,7 @@ class VideoThread(QThread):
     """
     change_pixmap_signal = pyqtSignal(np.ndarray)
 
-    def __init__(self, width, height, camera_index = 0):
+    def __init__(self, width, height, camera_index):
         """
         Initializes the VideoThread object with specified display dimensions.
 

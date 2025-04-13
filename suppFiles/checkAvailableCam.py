@@ -10,6 +10,5 @@ def list_available_cameras(max_index=5):
             print(f"Camera index {index} not available.")
 
 if __name__ == "__main__":
-
     list_available_cameras(5)
 
